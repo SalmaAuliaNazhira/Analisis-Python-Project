@@ -1,11 +1,11 @@
 # Analisis-Python-Project
 
+## Struktur Direktori
 
-## Run steamlit app
-```
-streamlit run dashboard.py
-```
-
+- **/data**: Direktori ini berisi data yang digunakan dalam proyek, dalam format .csv .
+- **/dashboard**: Direktori ini berisi dashboard.py yang digunakan untuk membuat dashboard hasil analisis data.
+- **notebook.ipynb**: File ini yang digunakan untuk melakukan analisis data.
+  
 ## Instalasi
 
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek:
@@ -13,7 +13,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek:
 1. Clone repositori ini
 
    ```bash
-   git clone https://github.com/zakyrmh/Belajar-Analisis-Data-dengan-Python.git
+   git clone https://github.com/SalmaAuliaNazhira/Analisis-Python-Project.git
    ```
 
 2. Masuk ke direktori proyek:
