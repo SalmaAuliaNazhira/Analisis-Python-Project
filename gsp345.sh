@@ -328,7 +328,7 @@ echo "${RED}${BOLD}Task 5. ${RESET}""${WHITE}${BOLD}Destroy resources${RESET}" "
 cat >> main.tf <<EOF_END
 module "vpc" {
     source  = "terraform-google-modules/network/google"
-    version = "~> 6.0.0"
+    version = "~> 10.0.0"
 
     project_id   = "$PROJECT_ID"
     network_name = "$VPC"
